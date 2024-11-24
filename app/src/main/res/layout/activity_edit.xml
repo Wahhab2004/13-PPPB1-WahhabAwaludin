@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="EDIT DATA"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:layout_marginTop="50dp"/>
+
+
+    <TextView
+        android:id="@+id/txtUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="70dp"
+        android:layout_marginTop="50dp"
+        android:text="Username"
+        android:textSize="12sp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/editUsername"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/rounded"
+        android:layout_marginHorizontal="70dp"
+        android:translationZ="10dp"
+        android:elevation="2dp"/>
+
+    <TextView
+        android:id="@+id/txtNIK"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="70dp"
+        android:layout_marginTop="10dp"
+        android:text="NIK"
+        android:textSize="12sp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/editNIK"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/rounded"
+        android:layout_marginHorizontal="70dp"
+        android:translationZ="10dp"
+        android:elevation="2dp"/>
+
+
+    <TextView
+        android:id="@+id/txtGender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="70dp"
+        android:layout_marginTop="10dp"
+        android:text="GENDER"
+        android:textSize="12sp"
+        android:textStyle="bold"/>
+
+
+
+    <RadioGroup
+        android:id="@+id/genderGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="70dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radioMale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Laki-laki" />
+
+        <RadioButton
+            android:id="@+id/radioFemale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Perempuan"
+            android:layout_marginStart="10dp"/>
+    </RadioGroup>
+
+
+    <TextView
+        android:id="@+id/txtAlamar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="70dp"
+        android:layout_marginTop="10dp"
+        android:text="Alamat"
+        android:textSize="12sp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/editAlamat"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/rounded"
+        android:layout_marginHorizontal="70dp"
+        android:translationZ="10dp"
+        android:elevation="2dp"/>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnSimpan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded"
+        android:layout_marginHorizontal="100dp"
+        android:text="SIMPAN"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/green"
+        android:layout_marginTop="200dp"/>
+</LinearLayout>

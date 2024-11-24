@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DETAIL DATA PEMILIH"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:layout_marginTop="50dp"/>
+
+
+    <TextView
+        android:id="@+id/txtUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="70dp"
+        android:layout_marginTop="50dp"
+        android:text="Username"
+        android:textSize="12sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/editUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:background="@drawable/rounded"
+        android:layout_marginHorizontal="70dp"
+        android:translationZ="10dp"
+        android:elevation="2dp"/>
+
+    <TextView
+        android:id="@+id/txtNIK"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="70dp"
+        android:layout_marginTop="10dp"
+        android:text="NIK"
+        android:textSize="12sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/editNIK"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded"
+        android:layout_marginHorizontal="70dp"
+        android:translationZ="10dp"
+        android:padding="15dp"
+        android:elevation="2dp"/>
+
+
+    <TextView
+        android:id="@+id/txtGender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="70dp"
+        android:layout_marginTop="10dp"
+        android:text="Gender"
+        android:textSize="12sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/editGender"
+        android:layout_width="match_parent"
+        android:padding="15dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded"
+        android:layout_marginHorizontal="70dp"
+        android:translationZ="10dp"
+        android:elevation="2dp"/>
+
+
+    <TextView
+        android:id="@+id/txtAlamar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="70dp"
+        android:layout_marginTop="10dp"
+        android:text="Alamat"
+        android:textSize="12sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/editAlamat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:background="@drawable/rounded"
+        android:layout_marginHorizontal="70dp"
+        android:translationZ="10dp"
+        android:elevation="2dp"/>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnSimpan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded"
+        android:layout_marginHorizontal="100dp"
+        android:text="KEMBALI"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/blue"
+        android:layout_marginTop="200dp"/>
+</LinearLayout>
